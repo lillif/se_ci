@@ -5,18 +5,6 @@ build:
   os: ubuntu-lts-latest
   tools:
     python: "3.8"
-    # You can also specify other tool versions:
-    # nodejs: "20"
-    # rust: "1.70"
-    # golang: "1.20"
-
-# python:
-#    version: 3.8
-#    install:
-#       - method: pip
-#         path: .
-#         extra_requirements:
-#             - docs
 
 sphinx:
   builder: html
