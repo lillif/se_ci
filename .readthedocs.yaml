@@ -10,13 +10,13 @@ build:
     # rust: "1.70"
     # golang: "1.20"
 
-python:
-   version: 3.8
-   install:
-      - method: pip
-        path: .
-        extra_requirements:
-            - docs
+# python:
+#    version: 3.8
+#    install:
+#       - method: pip
+#         path: .
+#         extra_requirements:
+#             - docs
 
 sphinx:
   builder: html
