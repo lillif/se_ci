@@ -6,6 +6,7 @@ build:
   tools:
     python: "3.8"
 
+# Recommended, not required
 python:
    version: 3.8
    install:
